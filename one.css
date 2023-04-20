@@ -7,12 +7,12 @@
 
 @font-face {
     font-family: rb_r;
-    src: url(/Regular.ttf);
+    src: url(Regular.ttf);
 }
 
 @font-face {
     font-family: rb_b;
-    src: url(/Bold.ttf);
+    src: url(Bold.ttf);
 }
 
 body {
