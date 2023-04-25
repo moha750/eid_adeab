@@ -1,0 +1,52 @@
+@font-face {
+    font-family: b;
+    src: url(4_0.ttf);
+}
+  
+@font-face {
+    font-family: r;
+    src: url(4.ttf);
+}
+  
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'b', 'r';
+}
+  
+body {
+    background: linear-gradient(20deg, #ffc60a 0%, #0051b2 100%);
+}
+
+.body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 300px;
+}
+
+footer {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  i {
+    color: #ffffff;
+    font-size: 35px;
+    margin: 0px 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+div {
+    display: flex;
+    align-items: flex-end;
+}
